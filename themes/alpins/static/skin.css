@@ -19,68 +19,68 @@ COLORS
 }
 
 body, header h2, h1, h2, h3, h4, h5, h6, .input-text, .input-select, .input-textarea, .icon-list span, .icon-list span a, .social-links a i, .glide__arrow, .search-bar input[type=submit], .menu-inner li > a, .accordion-list > li > a, .cnt-box-blog-side .icon-list a, .cnt-box-blog-top .icon-list a, .list-nav a, .media-box-down .caption h2, .media-box-down .caption p {
-    color: #13304a;
+    color: #222222;
 }
 
 div.cnt-box-info .cnt-info, footer, .cnt-box-testimonials-bubble > p, [class*=box-lightbox].light, .datepicker-panel > ul > li, .datepicker-panel > ul[data-view="week"] > li, .datepicker-panel > ul[data-view="week"] > li:hover, .datepicker-top-left, .datepicker-top-right, .datepicker-panel > ul > li.disabled, .datepicker-panel > ul > li.disabled:hover, .cnt-box-blog-side .blog-date span:last-child, .cnt-box-blog-top .blog-date span:last-child, .section-home-alpins + section:before, .scroll-menu .shop-menu-cnt .cart-count {
-    background-color: #13304a;
+    background-color: #222222;
 }
 
 .cnt-box-testimonials-bubble > p:after {
-    border-right-color: #13304a;
+    border-right-color: #222222;
 }
 
 .tab-nav li.active a, .tab-nav li:hover a {
-    background-color: #13304a;
-    border-color: #13304a;
+    background-color: #222222;
+    border-color: #222222;
 }
 
 .lan-menu .dropdown > ul > li > a, body > nav.scroll-menu:before, .title > p:before, .title > p:after, .quote .quote-author:before, .cnt-box-info .extra-field, .glide__bullets > button:hover, .glide__bullets > button.glide__bullet--active, .controls-right .glide__bullet, .media-box-reveal .extra-field, .media-box .caption h3:before, .bg-color, body main > section.bg-color, nav .dropdown > ul > li > a, body > header h2:after, body > header h2:before, .controls-out.arrows-left .glide__arrow:hover, .menu-cnt > ul > li > ul li > a, .album-box .caption h3:after, .menu-inner li:before, .cnt-box-blog-side .blog-date, .cnt-box-blog-top .blog-date, .section-home-alpins .glide__arrow, .menu-inner:not(.menu-inner-vertical) .dropdown ul > li > a, .step-item:before, .step-item > span, .shop-menu-cnt .cart-count {
-    background-color: #379cf4;
+    background-color: #666666;
 }
 
 .section-home-alpins .glide__bullets .glide__bullet.glide__bullet--active {
-    background-color: #379cf4 !important;
+    background-color: #666666 !important;
 }
 
 @media (max-width: 991.98px) {
     nav.scroll-menu .menu-cnt {
-        background-color: #379cf4;
+        background-color: #666666;
     }
 }
 
 .btn, .icon-links-grid a:hover, .icon-links-button a {
-    background-color: #379cf4;
-    border-color: #379cf4;
+    background-color: #666666;
+    border-color: #666666;
 }
 
 a, .counter .value span:last-child, .icon-box i, .cnt-box-info .cnt-info > div > span:last-child, .cnt-box-info .bottom-info, .btn-text, .menu-cnt > ul > li:hover > a, nav:not(.menu-transparent) .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, nav:not(.menu-transparent) .lan-menu > li:hover > a, .timeline > div:hover .badge p, .cnt-box-team:hover .caption h2, .cnt-box-top-icon > i, .datepicker-panel > ul > li:hover, .extra-field:before, .menu-inner li.active > a, .menu-inner li:hover > a, .table-alpins td:first-child, .accordion-list > li > a:before, .cnt-box-blog-side .icon-list i, .cnt-box-blog-top .icon-list i, .list-nav a:before, .cnt-box .caption p b, .cnt-box-side-icon > i, .countdown h3, .countdown p, nav:not(.menu-transparent) .menu-mini .lan-menu > li:hover > a, nav .icon-list li > i {
-    color: #379cf4;
+    color: #666666;
 }
 
 .breadcrumb li a:hover, .light .breadcrumb li:not(:last-child) a:hover, .light .text-color, .text-color, .menu-inner .dropdown li:hover > a {
-    color: #379cf4 !important;
+    color: #666666 !important;
 }
 
 form.form-box textarea:focus, form.form-box select:focus, form.form-box input:focus, [data-parallax] .table td, .media-box-half .caption .extra-field + p, .timeline > div .panel, div.timeline > div.inverted .panel:last-child, .search-box-menu > input[type=text]:focus {
-    border-color: #379cf4;
+    border-color: #666666;
 }
 
 .lan-menu .dropdown > ul > li:hover > a, .btn:not(.btn-border):hover, .dropdown ul:not(.icon-list) li:hover > a, .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, .icon-links-button a:hover, .pagination li.page:hover a, .pagination li.page.active a, .section-home-alpins .glide__arrow:hover, .menu-inner:not(.menu-inner-vertical) .dropdown ul > li:hover > a {
-    background-color: #3081c8;
+    background-color: #444444;
 }
 
 .btn-text:hover, .accordion-list > li > a:hover, .list-nav a:hover {
-    color: #3081c8;
+    color: #444444;
 }
 
 @media (max-width: 991.98px) {
     nav.scroll-menu .dropdown > ul > li > a {
-        background-color: #3081c8;
+        background-color: #444444;
     }
 
     .menu-transparent:not(.scroll-menu) .menu-cnt > ul > li.dropdown.active > a {
-        color: #3081c8 !important;
+        color: #444444 !important;
     }
 }
 

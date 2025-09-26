@@ -2363,3 +2363,7 @@ Extra small devices (portrait phones, less than 576px)
         line-height: 45px;
     }
 }
+
+.instagram {
+    color: #E1306C;
+}

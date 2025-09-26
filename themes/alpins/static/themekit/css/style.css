@@ -5384,3 +5384,7 @@ Inverted responsive classes
         display: none;
     }
 }
+
+.whatsapp-green {
+    color: #25D366;
+}

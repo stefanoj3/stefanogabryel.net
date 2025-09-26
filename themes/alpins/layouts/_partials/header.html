@@ -1,2 +1,27 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<nav class="menu-classic menu-fixed align-right" data-menu-anima="fade-in">
+    <div class="container">
+        <div class="menu-brand">
+            <a href="/">
+                <img class="logo-default scroll-hide" src="/logo.png" alt="logo" />
+                <img class="logo-retina scroll-hide" src="/logo.png" alt="logo" />
+                <img class="logo-default scroll-show" src="/logo_white.png" alt="logo" />
+                <img class="logo-retina scroll-show" src="/logo_white.png" alt="logo" />
+            </a>
+        </div>
+        <i class="menu-btn"></i>
+        <div class="menu-cnt">
+            <ul id="main-menu">
+                {{ range .Site.Menus.main }}
+                {{ if or (not .Page) (or (not (isset .Page.Params "show")) (.Page.Params.show)) }}
+                   <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+                {{ end }}
+            </ul>
+            <div class="menu-right">
+                <div class="icon-links icon-social social-colors-hover">
+                    <a target="_blank" class="instagram" href="{{ .Site.Params.instagramLink }}"><i class="icon-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

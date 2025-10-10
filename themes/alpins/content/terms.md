@@ -1,7 +1,7 @@
 +++
 title = "Terms & Conditions"
 url = "/terms-and-conditions/"
-layout = "terms-and-conditions"
+layout = "terms"
 show = false
 
 [menu.main]

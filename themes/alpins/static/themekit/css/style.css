@@ -5388,3 +5388,10 @@ Inverted responsive classes
 .whatsapp-green {
     color: #25D366;
 }
+
+.avatar {
+    max-width: 80%;!important;
+    margin-left: 10%;
+    margin-right: 9.9%;
+    margin-bottom: 10px;
+}

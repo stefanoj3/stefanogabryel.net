@@ -1,0 +1,84 @@
+{{ define "main" }}
+<header class="header-base" style="margin-top: 120px;">
+    <div class="container" style="margin-top: 0px; opacity: 1;">
+        <h1>Privacy Policy</h1>
+        <h2>This page outlines the privacy policy.</h2>
+    </div>
+</header>
+<main>
+    <section class="section-base" style="border-bottom: 1px solid #c3dff7;">
+        <div class="container">
+            <h2>Data Controller</h2>
+            <p>
+                The <b>Data Controller</b> is the person or company who manages your data. For this website, the Data Controller is:
+            </p>
+            <ul>
+                <li><b>Name:</b> Stefano Gabryel</li>
+                <li><b>VAT Number:</b> {{ .Site.Params.piva }}</li>
+                <li><b>Address:</b> Via Lucchese 312, Uzzano, PT, 51010</li>
+                <li><b>Email:</b> {{ .Site.Params.email }}</li>
+            </ul>
+
+            <br/>
+            <h3>Data We Collect</h3>
+            <p>
+                This website is designed to be simple and does not collect your personal data directly. We do not use cookies, contact forms, or other automatic tracking tools.
+            </p>
+
+            <p>
+                The only data we might process is what <b>you voluntarily choose to provide us</b> when you contact us through one of the following channels:
+            </p>
+            <ul>
+                <li><b>Email:</b> When you write us an email.</li>
+                <li><b>Phone:</b> When you call us.</li>
+                <li><b>WhatsApp:</b> When you contact us through the messaging app.</li>
+                <li><b>Instagram:</b> When you interact with our social profile.</li>
+            </ul>
+
+            <p>
+                Any data you provide in these cases (like your name, phone number, or email address) will only be used to respond to your request.
+            </p>
+
+            <br/>
+            <h3>How and Where We Process Data</h3>
+            <p>
+                We handle your data with the utmost care and take security measures to protect it from unauthorized access, disclosure, alteration, or destruction.
+            </p>
+
+            <br/>
+            <h3>Why We Process Data</h3>
+            <p>
+                Your personal data is processed exclusively for one purpose: to respond to your requests. We use your data to manage our communication with you and to give you the information you are looking for.
+            </p>
+
+            <br/>
+            <h3>Data Retention Period</h3>
+            <p>
+                We keep your personal data for the time strictly necessary to respond to your request. Once our communication is finished, your data is deleted.
+            </p>
+
+            <br/>
+            <h3>Your Rights</h3>
+            <p>
+                Under the <b>General Data Protection Regulation (GDPR)</b>, you have the right to:
+            </p>
+            <ul>
+                <li><b>Withdraw consent:</b> You can withdraw your consent at any time.</li>
+                <li><b>Object to processing:</b> You can object to the processing of your personal data.</li>
+                <li><b>Access your data:</b> You have the right to request and get a copy of the data you have provided to us.</li>
+                <li><b>Request rectification or erasure:</b> You can ask us to correct your data or to delete it completely.</li>
+            </ul>
+
+            <p>
+                To exercise any of these rights, please contact the Data Controller at the email address listed in this policy.
+            </p>
+
+            <br/>
+            <h3>Additional Information</h3>
+            <p>
+                <b>External Links:</b> This site contains links to external platforms like Instagram and WhatsApp. Please remember that once you leave our site and access these services, the processing of your data is handled by those platforms, not by us. We encourage you to read their respective privacy policies.
+            </p>
+        </div>
+    </section>
+</main>
+{{ end }}
